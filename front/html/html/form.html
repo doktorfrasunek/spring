@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w="
+        crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form method="POST" novalidate>
+        <div>
+            <label for="login">Login</label>
+            <input id="login" name="login" placeholder="Podaj login" autofocus>
+        </div>
+        <div>
+            <input type="email" name="mail" placeholder="Podaj maila">
+        </div>
+        <div>
+            <input type="password" name="password">
+        </div>
+
+        <div>
+                <label class="input-selection">
+                        <input type="radio" name="sex" value="f">
+                        <span>
+                            <i class="fa fa-check"></i>
+                        </span>
+                        Kobieta
+                    </label>
+        </div>
+
+        <div>
+    
+            <label class="input-selection">
+                    <input type="radio" name="sex" value="m" checked>
+                    <span>
+                        <i class="fa fa-check"></i>
+                    </span>
+                    Mezczyzna
+                </label>
+        </div>
+
+        <div>
+                <label class="input-selection">
+                    <input type="checkbox" name="food[]" value="vege" checked>
+                    <span>
+                        <i class="fa fa-check"></i>
+                    </span>
+                    Wege
+                </label>
+        <div>
+
+        </div>
+                <label class="input-selection">
+                    <input type="checkbox" name="food[]" value="meat" checked>
+                    <span>
+                        <i class="fa fa-check"></i>
+                    </span>
+                    Mięso
+                </label>
+        </div>
+
+        <div>
+            <select name="category" multiple>
+                <option value="">Wybierz kategorie</option>
+                <option value="40" selected>Komputery</option>
+                <option value="60" selected>Telewizory</option>
+            </select>
+        </div>
+        <!-- <input type="submit" value="Wyślij"> -->
+
+        <textarea name="content">dfadsdfsfafdsfdas</textarea>
+
+        <input type="file" name="attachment">
+
+        
+        <button>
+            Wyślij
+            <img class="image" src="https://www.placecage.com/g/60/60">
+        </button>
+    </form>
+</body>
+</html>

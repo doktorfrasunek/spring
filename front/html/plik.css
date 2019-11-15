@@ -1,0 +1,63 @@
+/* serif - czcionka szeryfowa, czczionka sans-serif */
+/* Lato to  web czcionka z google fonts, link wklejony na strone */
+body {
+    font-family: Lato, sans-serif;
+    background: rgb(100, 200,75,1);
+    background-image: url(https://www.placecage.com/c/200/300);
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 20px;
+    line-height: 1.5;
+    font-style: italic;
+    
+}
+
+p {
+    color:black;
+    order: 20, blue;
+
+}
+.fa-facebook{
+    font-size: 60px;
+    color: black;
+    transition: color .3s;
+    background: blue;
+}
+.fa-facebook:hover{
+    color: darkblue;
+}
+article{
+    border: 2px solid blue;
+    color: red; 
+    font-size:15;
+    margin: 10px;
+    padding: 20px;
+}
+/* header w article i footer w article */
+article header, 
+article footer{
+    background: blueviolet;
+    font-family: 'Literata', serif;
+}
+
+/* selektor klasy */
+.header{
+     font-weight: bolder;
+     /* margin: 50px 40px; => margin: 50px 40px 50px 40px; */
+     /* margin: 50px; => margin: 50px 50px 50px 50px; */
+    /* margin: 50px 40px 70px; => margin: 50px 40px 70px 40px; */
+}
+/* wybiera wszystkie elementy */
+*{
+    background: brown;
+}
+/* wszystko co w klasie big */
+.big *{
+    background: cadetblue;
+}
+
+/* dla elementu o id */
+#pierwszy{
+    background: crimson;
+
+}

@@ -1,0 +1,38 @@
+label {
+    cursor: pointer;
+}
+
+.input-selection input {
+    display: none;
+}
+
+.input-selection span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border: 2px solid grey;
+    transition: all .5s;
+
+    /* #ecd = #eeccdd */
+}
+
+.input-selection span .fa {
+    opacity: 0;
+    color: #fff;
+    transition: all .5s;
+}
+
+.input-selection input:checked + span {
+    background: green;
+    border-color: green;
+}
+
+.input-selection input:checked + span .fa {
+    opacity: 1;
+}
+
+.input-selection input[type=radio] + span {
+    border-radius: 50%;
+}

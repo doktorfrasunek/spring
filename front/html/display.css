@@ -1,0 +1,13 @@
+.box{
+    display: inline-block;
+    background-color: chartreuse;
+    width: 45%;
+    text-align: center;
+    
+}
+
+.line{
+    display: block;
+    padding: 10;
+   
+}
