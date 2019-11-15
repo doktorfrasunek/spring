@@ -5,11 +5,11 @@ $(function(){
 $('.mark.favorite').click(function(event){
     event.preventDefault();
     var form = event.target;
-    alert(form);
+     alert(form.split('#'));
 });
 
 $('.unmark.favorite').click(function(event){
     event.preventDefault();
     var form = event.target;
-    alert(form);
+    alert(form.split('#'));
 });
